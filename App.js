@@ -5,14 +5,14 @@ import {Text, View, Image, TextInput} from 'react-native';
 
 const App = () => {
   return (
-    <View>
+    <View style={{margin: 10}}>
       <View style={{width: 80, height: 80, backgroundColor: '#12CBC4'}}/>
       <Fauzi />
         <Text>Hello World</Text>
         <Text>Hello World</Text>
         <Text>Hello World</Text>
         <Gambar />
-        <TextInput style={{borderWidth: 1}}></TextInput>
+        <TextInput style={{borderWidth: 1, marginTop: 10}}></TextInput>
         <Aku />
     </View>
   );
